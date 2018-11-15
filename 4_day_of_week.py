@@ -1,15 +1,24 @@
 #4. Day of the week
+#=======dictionary version=====
+# day = int(input('Day (0-6)? '))
+# week = {
+#     0: "Sunday",
+#     1: "Monday",
+#     2: "Tuesday",
+#     3: "Wednesday",
+#     4: "Thursday",
+#     5: "Friday",
+#     6: "Saturday"
+# }
+# if day in week.keys():
+#     print (week[day])
+# else:
+#     print ("Type in number between 0 to 6!")
+
+#============= Tuple version============
 day = int(input('Day (0-6)? '))
-week = {
-    0: "Sunday",
-    1: "Monday",
-    2: "Tuesday",
-    3: "Wednesday",
-    4: "Thursday",
-    5: "Friday",
-    6: "Saturday"
-}
-if day in week.keys():
+week = ("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday")
+if day < len(week):
     print (week[day])
 else:
     print ("Type in number between 0 to 6!")
@@ -20,8 +29,8 @@ day = int(input('Day (0-6)? '))
 if day < 0 or day >=7:
     print ('Type in number between 0 to 6!')
 elif day == 0:
-    print ('Sunday')
 elif day == 1:
+    print ('Sunday')
     print ("Monday")
 elif day == 2:
     print ("Tuesday")
