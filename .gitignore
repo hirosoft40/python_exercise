@@ -1,0 +1,8 @@
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+/20181116/__pycache__
+/20181116/fx.txt
+/20181116/fxRate.py

@@ -33,9 +33,9 @@ for i in lis:
         print ("positive number is :", i)
 
 ## ==============================
-## 6 new list of positive number
 lis = [1,16,18,19, 2050, 9.84, -10, 0, 0.5]
 newlis =[]
+## 6 new list of positive number
 for i in lis:
     if i > 0:  # 0 is not negative nor positive
         newlis.append(i)
@@ -88,7 +88,12 @@ mxList1 = [[[1,2],[3,4]],[[5,6],[7,8]]]
 mxList2 = [[[9,10],[11,12]],[[13,14],[15,16]]]
 ansList = []
 
+for i in range(len(mxList1)):
+    for l in range(len(mxList1[i])):
+        ansList.append(mxList1[i][l] + matList2[i][l])
+print (newMatList)
+
 mxList1[[0][0][0]] * mxList2[[0][0][0]] + mxList1[[0][0][1]] * mxList2[[1][0][0]] 
 mxList1[[0][1]] * mxList2[[0][0][1]] + mxList1[[0][1][1]] * mxList2[[1][0][1]] 
-mxList1[[1][0][0]] * mxList2[[0][1][0]] + mxList1[[1][0][1]] * mxList2[[1][1][0]] 
 mxList1[[0][0][0]] * mxList2[[0][1][1]] + mxList1[[1][1][1]] * mxList2[[1][1][1]] 
+mxList1[[1][0][0]] * mxList2[[0][1][0]] + mxList1[[1][0][1]] * mxList2[[1][1][0]] 

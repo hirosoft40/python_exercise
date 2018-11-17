@@ -32,6 +32,10 @@ for i in range(5):
         star += "*"
     print (star)
 
+## ~~~~~ ans. Take away : no need to define string. connect with *
+for i in range(size):
+    print ('*' * size)
+
 # ## ==============================
 # ## 5. Print a Square II : Print a NxN square of * characters. Prompt the user for N. 
 # ## ----
@@ -75,6 +79,12 @@ while i < height:
 # height = 4
 # for i in range(height):
 #     print ("*" + ("*" *2*i))
+# # answer
+xr = 10
+for x in range (0,xr);
+    spaces = xr -x - 1
+    stars = x * 2 + 1
+    print (' ' * spaces + '*' * stars)
 
 ## ==============================
 ## 9. Multiplication Table 1 to 10
