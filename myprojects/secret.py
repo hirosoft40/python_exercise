@@ -1,3 +1,5 @@
+## convert string to ASCII digits #
+## for my son's study
 
 def createSecret(msg):
     code = []
@@ -20,7 +22,7 @@ def hints1():
         return False
     else:
         if yn == 'y':
-            print ("The message looks like the language called \"Unicode\" spoken in computers country.")
+            print ("The message looks like the language called \"ASCII\" digits spoken in computers country.")
         else:
             print ("Ok. Try your best!") 
             return False
