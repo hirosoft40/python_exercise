@@ -6,7 +6,7 @@ import numpy as np
 
 x,y = [],[]
 #file open
-with open('rate.txt', 'r') as file:
+with open('fxRate.txt', 'r') as file:
     data = file.read().splitlines()
     
     for line in data:
