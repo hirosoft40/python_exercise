@@ -80,6 +80,7 @@ sonny.num_unique_people_greeted()
 tommy.num_unique_people_greeted()
 #print (len(jordan.greetedFriends))
 
+sonny.greetedFriends[0].name
 
 ## 2. Make your own class
 class Vehicle():
