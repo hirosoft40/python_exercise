@@ -10,3 +10,6 @@ myprojects/sample.py
 myprojects/sample.txt
 lecture.py
 .vscode/settings.json
+lecture/
+assignment/__pycache__
+assignment/works

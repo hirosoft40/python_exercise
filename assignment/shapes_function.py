@@ -58,10 +58,9 @@ def nightSky(noOfStar, fwd):
         noOfStar -= 1
         end_fill()
 
-## ======== Artistic Project2-1 ==============
 ## arg1/ color: pencolor
 ## arg2/ howMany: No of times to display the object 
-def art1(howMany):
+def colorfulBall(howMany):
     while howMany > 0:
         for i in range(40):
             pencolor(colorlist[i])
@@ -71,3 +70,13 @@ def art1(howMany):
         changeLocation()
         stamp()
         howMany -= 1
+
+## ======== Artistic Project2-1 ==============
+def circleComing():
+    for i in range(len(colorlist)):
+        pencolor(colorlist[i])
+        speed(50)
+        width(i*7)
+        forward(i)
+        right(15)
+
